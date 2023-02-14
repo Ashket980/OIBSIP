@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">  
+    <title>To-do List App </title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+
+  <body>
+    <div class="container">
+    <p><pre><b>       Enter the task name/details:</b></pre></p>
+      <div class="task-input" style="margin: 5px;">
+        <input type="text" placeholder="Add a new task">
+      </div>
+
+      <pre>       (Press Enter to save task.)</pre>
+
+      <div class="controls">
+        <div class="filters">
+          <span class="active" id="all">All</span>
+          <span id="completed">Completed</span>
+          <span id="pending">Pending</span>
+        </div>
+        <button class="clear-btn">Clear All</button>
+      </div>
+
+      <ul class="task-box"></ul>
+
+    </div>
+
+    <script src="script.js"></script>
+
+  </body>
+</html>
