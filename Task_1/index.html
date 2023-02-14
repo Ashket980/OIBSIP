@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+
+    <title>CALCULATOR</title>
+
+</head>
+
+  <body style="background-color: blueviolet;">
+        <table class="c">
+            <caption>CALCULATOR</caption>
+            <tr>
+                <td colspan="3"><input type="text" id="res"></td>
+                <td><button onclick="allclear()" class="clear">AC</button></td>
+            </tr>
+            <tr>
+                <td>
+                  <button onclick="s('9')">9</button>
+                </td>
+                <td>
+                  <button onclick="s('8')">8</button>
+                </td>
+                <td>
+                  <button onclick="s('7')">7</button>
+                </td>
+                <td>
+                  <button onclick="s('*')">*</button>
+                </td>
+
+            </tr>
+            <tr>
+                <td>
+                  <button onclick="s('6')">6</button>
+                </td>
+                <td>
+                  <button onclick="s('5')">5</button>
+                </td>
+                <td>
+                  <button onclick="s('4')">4</button>
+                </td>
+                <td>
+                  <button onclick="s('+')">+</button>
+                </td>
+                
+            </tr>
+            <tr>
+                <td>
+                  <button onclick="s('3')">3</button>
+                </td>
+                <td>
+                  <button onclick="s('2')">2</button>
+                </td>
+                <td>
+                  <button onclick="s('1')">1</button>
+                </td>
+                <td>
+                  <button onclick="s('-')">-</button>
+                </td>
+                
+            </tr>
+            <tr>
+                <td>
+                  <button onclick="s('/')">/</button>
+                </td>
+                <td>
+                  <button onclick="s('%')">%</button>
+                </td>
+                <td>
+                  <button onclick="s('.')">.</button>
+                </td>
+                <td>
+                  <button onclick="res()">=</button>
+                </td>
+                
+            </tr>
+        </table>
+  </body>
+</html>
