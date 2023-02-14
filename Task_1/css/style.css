@@ -1,1 +1,35 @@
 
+table, th, td {
+    border: 0px solid black;
+    background-color: khaki;
+}
+button{
+    justify-content: space-between;
+    padding: 25px;
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(255, 255, 255);
+}
+.c {
+    margin-left: auto;
+    margin-right: auto;
+    padding: auto;
+}
+caption
+{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 28px;
+    font-weight:16px ;
+    color: black;
+}
+input{
+    width:75% ;
+    background-color:rgb(255, 251, 251);
+    padding: 20px;
+    border-radius: 10px;
+    margin: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border:2px ;
+}
