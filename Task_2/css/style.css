@@ -1,0 +1,22 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+body {
+  background-color: black;
+  background-repeat: repeat;
+}
+.center
+{
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+  width:20%;
+}
+.container{
+  font-size: 45px;
+}
+.content{
+  font-size: 25px;
+  color:white;
+}
